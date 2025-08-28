@@ -1,0 +1,16 @@
+langchain
+langchain-core
+langchain-openai
+openai
+langchain-google-genai
+google-generativeai
+langchain-huggingface
+transformers
+huggingface-hub
+faiss-cpu
+tiktoken
+youtube-transcript-api
+python-dotenv
+numpy
+scikit-learn
+streamlit
