@@ -21,7 +21,8 @@ AskTube helps you **ask questions, get summaries, and explore transcripts** — 
 git clone https://github.com/dayanatif/AskTube.git
 cd AskTube
 
-# 2. Create virtual environment
+### 2. Create virtual environment
+```bash
 python -m venv venv
 
 # Activate venv
