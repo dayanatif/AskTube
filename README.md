@@ -16,8 +16,8 @@ AskTube helps you **ask questions, get summaries, and explore transcripts** — 
 
 ## 📦 Installation  
 
+### 1. Clone the repository  
 ```bash
-# 1. Clone the repository
 git clone https://github.com/dayanatif/AskTube.git
 cd AskTube
 
