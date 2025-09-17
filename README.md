@@ -2,7 +2,7 @@
 An AI-powered assistant that lets you **chat with YouTube videos** using **RAG (Retrieval-Augmented Generation)**.  
 AskTube helps you **ask questions, get summaries, and explore transcripts** — powered by **LangChain, FAISS, HuggingFace, and Google Generative AI embeddings**.  
 
-🔗 **Live App:** [AskTube on Streamlit](https://asktube-rag.streamlit.app/)  
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://asktube-rag.streamlit.app/)  
 
 ---
 
@@ -22,3 +22,37 @@ AskTube helps you **ask questions, get summaries, and explore transcripts** — 
 ```bash
 git clone https://github.com/dayanatif/AskTube.git
 cd AskTube
+```
+
+### 2. Create virtual environment
+```bash
+python -m venv venv
+
+# Activate venv
+# On Linux/Mac:
+source venv/bin/activate
+# On Windows:
+venv\Scripts\activate
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Set environment variables (create a .env file instead for persistence)
+```bash
+export GOOGLE_API_KEY=your_google_api_key
+export HUGGINGFACEHUB_API_TOKEN=your_huggingface_api_token
+
+# On Windows (PowerShell):
+# $env:GOOGLE_API_KEY="your_google_api_key"
+# $env:HUGGINGFACEHUB_API_TOKEN="your_huggingface_api_token"
+```
+
+### 5. Run the Streamlit app
+```bash
+streamlit run app.py
+```
+
+---
